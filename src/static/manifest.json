@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Ultrawide Please",
+  "version": "0.1.0",
+  "description": "Remove black bars from 21:9 content for optimal viewing on ultrawide monitors",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"],
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Code
+.vscode/*
+
+# Node
+node_modules/
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# build output
+dist
